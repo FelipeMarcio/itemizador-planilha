@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/itemizador-planilha/static/css/main.fe9ccd59.css",
+    "main.js": "/itemizador-planilha/static/js/main.b4d3b887.js",
+    "index.html": "/itemizador-planilha/index.html",
+    "main.fe9ccd59.css.map": "/itemizador-planilha/static/css/main.fe9ccd59.css.map",
+    "main.b4d3b887.js.map": "/itemizador-planilha/static/js/main.b4d3b887.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe9ccd59.css",
+    "static/js/main.b4d3b887.js"
+  ]
+}
