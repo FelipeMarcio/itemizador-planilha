@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itemizador de Planilhas - Inicializador</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        .status {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.2s;
+        }
+        .button:hover {
+            transform: translateY(-2px);
+        }
+        .instructions {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: left;
+        }
+        .error {
+            background: #ffebee;
+            border-left: 4px solid #f44336;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Itemizador de Planilhas</h1>
+        
+        <div class="status">
+            <h3>Status do Servidor</h3>
+            <p id="status">Verificando...</p>
+        </div>
+
+        <div class="instructions">
+            <h4>📋 Como usar:</h4>
+            <ol>
+                <li>Clique em "Abrir App" abaixo</li>
+                <li>Se não abrir, clique em "Tentar Novamente"</li>
+                <li>O app abrirá em uma nova aba do navegador</li>
+            </ol>
+        </div>
+
+        <a href="http://localhost:3000" class="button" target="_blank">
+            🌐 Abrir App
+        </a>
+        
+        <button class="button" onclick="checkServer()">
+            🔄 Tentar Novamente
+        </button>
+
+        <div class="error" id="error" style="display: none;">
+            <h4>⚠️ Servidor não está rodando</h4>
+            <p>Para iniciar o servidor:</p>
+            <ol>
+                <li>Execute o arquivo "INICIAR-APP.bat"</li>
+                <li>Aguarde o servidor iniciar</li>
+                <li>Volte aqui e clique em "Abrir App"</li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+        function checkServer() {
+            const statusElement = document.getElementById('status');
+            const errorElement = document.getElementById('error');
+            
+            statusElement.textContent = 'Verificando servidor...';
+            
+            fetch('http://localhost:3000', { mode: 'no-cors' })
+                .then(() => {
+                    statusElement.textContent = '✅ Servidor rodando!';
+                    errorElement.style.display = 'none';
+                    window.open('http://localhost:3000', '_blank');
+                })
+                .catch(() => {
+                    statusElement.textContent = '❌ Servidor não encontrado';
+                    errorElement.style.display = 'block';
+                });
+        }
+
+        // Verificar automaticamente ao carregar
+        setTimeout(checkServer, 1000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+🚀 ITEMIZADOR DE PLANILHAS - INSTRUÇÕES SIMPLES
+================================================
+
+📦 O QUE VOCÊ RECEBEU:
+• Itemizador-Simples.zip
+
+🎯 COMO USAR (3 PASSOS):
+
+1️⃣ EXTRAIR:
+   • Clique com botão direito no arquivo ZIP
+   • Escolha "Extrair Tudo" ou "Extrair Aqui"
+   • Aguarde extrair
+
+2️⃣ ABRIR:
+   • Procure o arquivo "index.html"
+   • Dê duplo clique nele
+   • O app abrirá no seu navegador
+
+3️⃣ USAR:
+   • Cole sua itemização no campo à esquerda
+   • Configure o número inicial (ex: 1)
+   • Defina a máscara (ex: XXXX.XX.XX.XX)
+   • Clique em "Gerar Nova Itemização"
+   • Copie os resultados
+
+💡 EXEMPLOS DE MÁSCARAS:
+• XXXX.XX.XX.XX → 0001.01.01.01, 0002.01.01.01
+• XX-XX → 01-01, 02-01, 03-01
+• Item XXXX → Item 0001, Item 0002
+
+✅ FUNCIONA EM QUALQUER COMPUTADOR!
+✅ NÃO PRECISA INSTALAR NADA!
+✅ FUNCIONA OFFLINE!
+
+🔧 PROBLEMAS?
+• Certifique-se de extrair TODOS os arquivos
+• Use um navegador moderno (Chrome, Firefox, Edge)
+• Se não abrir, tente clicar com botão direito → "Abrir com" → Escolha seu navegador
+
+📞 PRECISA DE AJUDA?
+Entre em contato com quem te enviou este app!

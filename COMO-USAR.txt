@@ -1,0 +1,52 @@
+🚀 ITEMIZADOR DE PLANILHAS - COMO USAR
+========================================
+
+📁 ARQUIVOS DISPONÍVEIS:
+• INICIAR-APP.bat - Inicia o servidor (duplo clique)
+• ABRIR-APP.html - Abre o app no navegador
+• Itemizador-de-Planilhas.zip - Versão offline
+
+🎯 COMO USAR (RECOMENDADO):
+
+OPÇÃO 1 - SERVIDOR LOCAL (MELHOR EXPERIÊNCIA):
+1. Dê duplo clique em "INICIAR-APP.bat"
+2. Aguarde o servidor iniciar (aparecerá uma janela)
+3. Dê duplo clique em "ABRIR-APP.html"
+4. O app abrirá automaticamente no navegador
+5. Para parar: feche a janela do servidor
+
+OPÇÃO 2 - VERSÃO OFFLINE:
+1. Extraia "Itemizador-de-Planilhas.zip"
+2. Dê duplo clique em "index.html"
+3. Funciona sem internet!
+
+📋 COMO USAR O APP:
+1. Cole sua itemização original no campo à esquerda
+2. Configure o número inicial (ex: 1, 0177, etc.)
+3. Defina a máscara (ex: XXXX.XX.XX.XX)
+4. Clique em "Gerar Nova Itemização"
+5. Copie os resultados para sua planilha
+
+💡 EXEMPLOS DE MÁSCARAS:
+• XXXX.XX.XX.XX → 0001.01.01.01, 0002.01.01.01
+• XX-XX → 01-01, 02-01, 03-01
+• Item XXXX → Item 0001, Item 0002
+
+🔧 REQUISITOS:
+• Windows 10/11
+• Node.js (baixe em: https://nodejs.org)
+• Navegador moderno (Chrome, Firefox, Edge)
+
+⚠️ PROBLEMAS COMUNS:
+• "Node.js não encontrado" → Instale o Node.js
+• "Servidor não encontrado" → Execute INICIAR-APP.bat primeiro
+• App não abre → Tente a versão offline (ZIP)
+
+✅ VANTAGENS:
+• Funciona offline (versão ZIP)
+• Interface moderna e responsiva
+• Correção automática de erros
+• Copia resultados facilmente
+
+📞 PRECISA DE AJUDA?
+Entre em contato com quem te enviou este app!
