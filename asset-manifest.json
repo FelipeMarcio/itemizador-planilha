@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/itemizador-planilha/static/css/main.a0e3e49e.css",
-    "main.js": "/itemizador-planilha/static/js/main.0761d5c1.js",
+    "main.css": "/itemizador-planilha/static/css/main.fe9ccd59.css",
+    "main.js": "/itemizador-planilha/static/js/main.b4d3b887.js",
     "index.html": "/itemizador-planilha/index.html",
-    "main.a0e3e49e.css.map": "/itemizador-planilha/static/css/main.a0e3e49e.css.map",
-    "main.0761d5c1.js.map": "/itemizador-planilha/static/js/main.0761d5c1.js.map"
+    "main.fe9ccd59.css.map": "/itemizador-planilha/static/css/main.fe9ccd59.css.map",
+    "main.b4d3b887.js.map": "/itemizador-planilha/static/js/main.b4d3b887.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0e3e49e.css",
-    "static/js/main.0761d5c1.js"
+    "static/css/main.fe9ccd59.css",
+    "static/js/main.b4d3b887.js"
   ]
 }
